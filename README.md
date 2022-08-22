@@ -18,7 +18,12 @@
 
 ## 💻 About the project
 
-JSCalculator Project is a calculator developed as an example of the Complete JavaScript Course on [Udemy](https://www.udemy.com/). Calculator layout was adapted to html/css by [jonasmzsouza](https://github.com/jonasmzsouza/), however the original layout was developed in svg file by [hcode](https://www.hcode.com.br/). Refs: [Original layout](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone)
+JSCalculator Project is a calculator developed as an example of the Complete JavaScript Course on [Udemy](https://www.udemy.com/). Calculator layout was adapted to html/css by [jonasmzsouza](https://github.com/jonasmzsouza/), however the original layout was developed in svg file by [hcode](https://www.hcode.com.br/).
+
+Refs:
+
+- [Original layout](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone)
+- [Figma - Adapted layout](https://www.figma.com/file/DbHiEkZwypB1mf5eXMX77G/jscalculator)
 
 ---
 
@@ -34,6 +39,7 @@ Technologies and tools that were used in the development of the project:
 
 #### **Utilities**
 
+- UX: **[Figma](https://www.figma.com/)**
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Emojis: **[Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 - Shields: **[Shields](https://shields.io/)**
