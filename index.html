@@ -15,36 +15,45 @@
         </div>
         <div class="calculator-display">
           <div class="calculator-display-datetime">
-            <div id="time" class="calculator-display-time">10:00</div>
-            <div id="date" class="calculator-display-date">22 AGOSTO 2022</div>
+            <div id="time" class="calculator-display-time"></div>
+            <div id="sound" class="calculator-display-sound" style="display: none;">
+              <img src="/assets/images/sound-icon.svg" alt="sound icon">
+            </div>
+            <div id="date" class="calculator-display-date"></div>
           </div>
-          <div id="display" class="calculator-display-result">1234567890</div>
+          <div id="result" class="calculator-display-result"></div>
+        </div>
+        <div class="calculator-sound-container">
+          <div id="btn-sound" class="calculator-sound-button">
+            <img src="/assets/images/sound-icon.svg" alt="sound icon">
+          </div>
         </div>
         <div id="buttons" class="calculator-buttons-container">
-          <div class="calculator-button color-secondary btn-ac">AC</div>
-          <div class="calculator-button color-secondary btn-ce">CE</div>
-          <div class="calculator-button color-primary btn-percent">%</div>
-          <div class="calculator-button color-primary btn-times">×</div>
-          <div class="calculator-button color-primary bnt-7">7</div>
-          <div class="calculator-button color-primary bnt-8">8</div>
-          <div class="calculator-button color-primary bnt-9">9</div>
-          <div class="calculator-button color-primary bnt-divide">÷</div>
-          <div class="calculator-button color-primary bnt-4">4</div>
-          <div class="calculator-button color-primary bnt-5">5</div>
-          <div class="calculator-button color-primary bnt-6">6</div>
-          <div class="calculator-button color-primary bnt-minus">-</div>
-          <div class="calculator-button color-primary bnt-1">1</div>
-          <div class="calculator-button color-primary bnt-2">2</div>
-          <div class="calculator-button color-primary bnt-3">3</div>
-          <div class="calculator-button color-primary bnt-plus">+</div>
-          <div class="calculator-button color-primary bnt-0">0</div>
-          <div class="calculator-button color-primary bnt-dot">.</div>
-          <div class="calculator-button color-primary bnt-power">
+          <div id="btn-ac" class="calculator-button color-secondary">AC</div>
+          <div id="btn-ce" class="calculator-button color-secondary">CE</div>
+          <div id="btn-percent" class="calculator-button color-primary">%</div>
+          <div id="btn-times" class="calculator-button color-primary">×</div>
+          <div id="btn-7" class="calculator-button color-primary">7</div>
+          <div id="btn-8" class="calculator-button color-primary">8</div>
+          <div id="btn-9" class="calculator-button color-primary">9</div>
+          <div id="btn-divide" class="calculator-button color-primary">÷</div>
+          <div id="btn-4" class="calculator-button color-primary">4</div>
+          <div id="btn-5" class="calculator-button color-primary">5</div>
+          <div id="btn-6" class="calculator-button color-primary">6</div>
+          <div id="btn-minus" class="calculator-button color-primary">-</div>
+          <div id="btn-1" class="calculator-button color-primary">1</div>
+          <div id="btn-2" class="calculator-button color-primary">2</div>
+          <div id="btn-3" class="calculator-button color-primary">3</div>
+          <div id="btn-plus" class="calculator-button color-primary">+</div>
+          <div id="btn-0" class="calculator-button color-primary">0</div>
+          <div id="btn-dot" class="calculator-button color-primary">.</div>
+          <div id="btn-power" class="calculator-button color-primary">
             a<sup>n</sup>
           </div>
-          <div class="calculator-button color-secondary bnt-equals">=</div>
+          <div id="btn-equals" class="calculator-button color-secondary">=</div>
         </div>
       </div>
     </div>
+    <script type="module" src="/assets/js/calculator.js"></script>
   </body>
 </html>
