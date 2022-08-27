@@ -6,9 +6,14 @@
   </a>
 </p>
 
-<h1 align="center"> 
-    <img alt="screenshot jscalculator" src="https://raw.githubusercontent.com/jonasmzsouza/js-calculator/main/assets/images/screenshot.jpg">
-</h1>
+<hr>
+<p align="center"> 
+  <a href="https://jmscalculator.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=:&message=website&color=a30068&style=for-the-badge&logo=netlify&logo-color=white"/>
+  </a>
+  <img src="https://raw.githubusercontent.com/jonasmzsouza/js-calculator/main/assets/images/screenshot.jpg" width="100%" alt="screenshot jmscalculator">
+</p>
+<hr>
 
 <p align="center">
  <a href="#-about-the-project">About</a> |
@@ -18,12 +23,12 @@
 
 ## 💻 About the project
 
-JSCalculator Project is a calculator developed as an example of the Complete JavaScript Course on [Udemy](https://www.udemy.com/). Calculator layout was adapted to html/css by [jonasmzsouza](https://github.com/jonasmzsouza/), however the original layout was developed in svg file by [hcode](https://www.hcode.com.br/).
+JMSCalculator Project is a calculator developed as an example of the Complete JavaScript Course on [Udemy](https://www.udemy.com/). Calculator layout was adapted to html/css by [jonasmzsouza](https://github.com/jonasmzsouza/), however the original layout was developed in svg file by [hcode](https://www.hcode.com.br/).
 
 Refs:
 
 - [Original layout](https://github.com/hcodebr/curso-javascript-projeto-calculadora-clone)
-- [Figma - Adapted layout](https://www.figma.com/file/DbHiEkZwypB1mf5eXMX77G/jscalculator)
+- [Figma - Adapted layout](https://www.figma.com/file/DbHiEkZwypB1mf5eXMX77G)
 
 ---
 
@@ -44,6 +49,7 @@ Technologies and tools that were used in the development of the project:
 - Emojis: **[Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 - Shields: **[Shields](https://shields.io/)**
 - Fonts: **[Inter](https://fonts.google.com/specimen/Inter)**, **[Digital-7](https://www.dafont.com/digital-7.font)**
+- Deploy: **[Netlify](https://www.netlify.com/)**
 
 ---
 
