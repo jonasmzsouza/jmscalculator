@@ -7,8 +7,12 @@
 }
 
 @font-face {
-  font-family: "Digital-7";
-  src: url("/assets/fonts/digital-7.ttf");
+  font-family: 'Digital-7';
+  src: url('/assets/fonts/Digital-7.woff2') format('woff2'),
+      url('/assets/fonts/Digital-7.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -40,7 +44,7 @@ sup {
 
 .calculator-card {
   width: 280px;
-  height: 430px;
+  height: 415px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,7 +58,7 @@ sup {
 .calculator-title h1 {
   padding: 10px 0;
   color: #817c75;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 700;
   text-align: center;
 }
@@ -94,7 +98,7 @@ sup {
   text-align: right;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   letter-spacing: 2px;
 }
 
@@ -105,10 +109,10 @@ sup {
 }
 
 .calculator-button {
-  width: 44px;
+  width: 46px;
   height: 37px;
-  border-radius: 10px;
-  margin: 6px;
+  border-radius: 8px;
+  margin: 5px;
   font-weight: 400;
   font-size: 18px;
   color: #dbdbdb;
@@ -147,7 +151,7 @@ sup {
 .calculator-sound-button {
   width: 25px;
   height: 21px;
-  border-radius: 5px;
+  border-radius: 4px;
   margin: 15px 5px 10px;
   padding: 5px;
   display: flex;
@@ -165,39 +169,39 @@ sup {
 
 @media (min-width: 576px) {
   .calculator-card {
-    width: 455px;
-    height: 700px;
+    width: 390px;
+    height: 600px;
   }
 
   .calculator-title h1 {
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px 0;
   }
 
   .calculator-display {
-    width: 358px;
-    height: 102px;
-    border-radius: 20px;
+    width: 310px;
+    height: 90px;
+    border-radius: 15px;
   }
 
   .calculator-display-datetime {
     padding: 10px 15px;
     padding-bottom: 0;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .calculator-display-result {
     height: 60px;
-    padding: 8px;
-    font-size: 45px;
+    padding: 5px 8px;
+    font-size: 38px;
   }
 
   .calculator-button {
-    width: 75px;
-    height: 65px;
-    border-radius: 15px;
-    margin: 10px;
-    font-size: 35px;
+    width: 68px;
+    height: 56px;
+    border-radius: 12px;
+    margin: 6px;
+    font-size: 30px;
   }
 
   .calculator-display-sound img {
@@ -211,10 +215,10 @@ sup {
   }
 
   .calculator-sound-button {
-    width: 42px;
-    height: 35px;
-    border-radius: 10px;
-    margin: 20px 10px 15px;
+    width: 37px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 20px 40px 15px 0;
     padding: 8px;
     background: linear-gradient(180deg, #ffa03f 0%, #eb673f 100%);
     box-shadow: 0px 0px 0px 2px #b0b0b0,
